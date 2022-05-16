@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2022-04-14T20:40:53Z"
+  labels:
+    addonmanager.kubernetes.io/mode: Reconcile
+    kubernetes.io/cluster-service: "true"
+  name: node-local-dns
+  namespace: kube-system
+  resourceVersion: "10035325"
+  uid: a9b131e5-27bb-441d-94ae-c4f6a7151cfe
+secrets:
+- name: node-local-dns-token-zq8bn
